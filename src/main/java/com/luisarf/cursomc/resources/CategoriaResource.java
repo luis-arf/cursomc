@@ -14,7 +14,7 @@ import com.luisarf.cursomc.domain.Categoria;
 public class CategoriaResource {
 
 	@RequestMapping(method = RequestMethod.GET)
-	public List listar() {
+	public List<Categoria> listar() {
 		
 		Categoria cat1 = new Categoria(1, "Informatica");
 		Categoria cat2 = new Categoria(2, "Escritorio");
